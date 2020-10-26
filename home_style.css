@@ -1,0 +1,160 @@
+/* WHOLE PAGE NEEDS TO BE SORTED!!! 
+PAGE APPLICABLE STYLES 
+*/
+a:link{
+  color: white;
+}
+a:hover{
+  color: rgb(126, 197, 255);
+}
+a:visited{
+  color: rgb(126, 197, 255);
+}
+
+
+
+/* 
+PAGE APPLICABLE STYLES END 
+*/
+
+/* ... */
+
+html {
+  background-image: 
+  url(https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1581719749), /* WHITE */
+  url(https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/c/acf7b664-3e75-4018-81f6-2a14ab59f258.jpg?1582126055), /* BLUE */
+  url(https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/2/02cb5cfd-018e-4c5e-bef1-166262aa5f1d.jpg?1582126067), /*BLACK */
+  url(https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/3/53fb7b99-9e47-46a6-9c8a-88e28b5197f1.jpg?1582126072), /* RED */
+  url(https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1582126077); /* GREEN */
+  background-size: 400px, 400px, 400px, 400px, 400px;
+  background-position: 0px 0px, 400px 0px, 800px 0px, 1200px 0px, 1600px 0px;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y, repeat-y;
+}
+
+body{
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+div.card_container {
+  text-align: center;
+  width: 280px;
+  height: 421px;
+  position: relative;
+  left: 50%;
+  margin-left: -140px;
+  padding-top: 21px;
+  background-color: rgba(25, 50, 100, 10);
+
+}
+
+.card_price_container_large{
+  width: 280px;
+  height: 21px;
+  background-color: rgba(25, 50, 100, 10);
+  color: white;
+}
+
+.card_price_container_medium{
+  padding-left: 12px;
+  width: 180px;
+  height: 21px;
+  background-color: rgba(25, 50, 100, 10);
+  color: white;
+}
+
+
+/* 
+HOVER ELEMENT FOR PRICES
+*/
+span.price_info{
+  display: none;
+}
+
+.card_price_container_large:hover span.price_info{
+  z-index: 9;
+  display: block;
+  background-color: rgba(25, 50, 100, 10);
+  position: relative;
+  bottom: 5%;
+  
+}
+.card_price_container_medium:hover span.price_info{
+  z-index: 9;
+  display: block;
+  background-color: rgba(25, 50, 100, 10);
+  position: absolute;
+  height: 21px;
+  width: 200px;
+}
+/* 
+HOVER ELEMENT FOR PRICES END
+*/
+
+
+.price_reg{
+  display: inline;
+  font-size: 18px;
+  padding-right: 25%;
+  position: relative;
+
+}
+.price_foil{
+  display: inline;
+  font-size: 18px;
+  position: relative;
+}
+
+/* ... */
+.big_card_container{
+  text-align: center;
+  /*width: 100%;
+  height: 421px;
+  position: relative;*/
+  margin-top: 100px;
+  padding-bottom: 10px;
+  background-color: rgba(25, 50, 100, 10);
+}
+
+.card_row{
+  display: inline-block;
+  padding-right: 15px;
+  margin-bottom: 21px;
+}
+
+
+.header_bar{
+  text-align: center;
+  background-color: rgba(25, 50, 100, 10);
+  height: 140px;
+  width: 100%;
+}
+
+.nav_title{
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+}
+
+.nav_buttons{
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+}
+
+.footer_bar{
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgba(25, 50, 100, 10);
+  height: 140px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+}
+
+
