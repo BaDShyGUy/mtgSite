@@ -10,11 +10,19 @@ I've noted that I might need to look into module scripts for importing all of th
 This is also my first experience with javascript, in about a week this is the CSS, JS, and HTML I came up with for this project. I can see myself working on this project for a long time since I don't see myself stopping playing or collecting MtG. Some future additions I'd like to see myself add are as follows:
 
 : Add the deck for each commander, add cards I'm looking at for the deck, add a total price of the deck and each section, add the ability to save the previous days value and compare to the next day for a total % increase/decrease on the deck's worth.
+
 : Add another section to the main page where you can view every single card I own, and again do a total % increase and decrease for the previous day(s) value(s) to see how much my collection has shifted. 
+
 : Make the background for each page the colors the commander represents, and make the background move infinitely up/down seamlessly so that the page doesn't look entirely static.
+
 : Make the site have a loading animation for every single card image and price so that the site doesn't look blank when it's requesting data from scryfall.
+
 : 
+
 : 
+
 : 
+
 : 
+
 
