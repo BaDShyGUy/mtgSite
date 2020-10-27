@@ -11,7 +11,7 @@ This is also my first experience with javascript, in about a week this is the CS
 
 : Add the deck for each commander, add cards I'm looking at for the deck, add a total price of the deck and each section, add the ability to save the previous days value and compare to the next day for a total % increase/decrease on the deck's worth.
 
-: Add another section to the main page where you can view every single card I own, and again do a total % increase and decrease for the previous day(s) value(s) to see how much my collection has shifted. 
+: Add another section to the main page where you can view every single card I own, and again do a total % increase and decrease for the previous day(s) value(s) to see how much my collection has shifted. This section will randomly select ~7 cards from my collection and animate them across the screen from right to left, and if you hover over any of the cards it pauses the animation, clicking on any of the cards will bring you to the page for my entire collection. 
 
 : Make the background for each page the colors the commander represents, and make the background move infinitely up/down seamlessly so that the page doesn't look entirely static.
 
