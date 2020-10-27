@@ -3,7 +3,7 @@ See README file.
 
 10/26/2020:
 
-Posted the code I have to github for my MtG Collection site. It is currently being hosted on repl.it as I don't own or feel comfortable securing, maintaing, and protecting my own web server currently, not to mention it'd probably cost me money I might not want to spend right now.
+Posted the code I have to github for my MtG Collection site. It is currently being hosted on repl.it as I don't own or feel comfortable securing, maintaining, and protecting my own web server currently, not to mention it'd probably cost me money I might not want to spend right now.
 
 I've noted that I might need to look into module scripts for importing all of the cards for each page rather than manually write out the code for each script that loads the cards for each page.
 
